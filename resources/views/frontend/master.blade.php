@@ -322,12 +322,13 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="copyright-text">
-                                <p>Copyright © 2024 <a href="#">Demo Website</a> All Rights Reserved.</p>
+                                <p>Copyright © <?= date('Y') ?>
+                                    <a href="#">Royal Furniture</a> All Rights Reserved.     </p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-none d-md-block">
                             <div class="payment-method-img text-right">
-                                <img src="{{ asset('frontend/img/images/card_img.png') }}" alt="img"> 
+                                <p>Developed By <a href="https://tantsoft.com/">Tantsoft</a></p>
                             </div>
                         </div>
                     </div>
