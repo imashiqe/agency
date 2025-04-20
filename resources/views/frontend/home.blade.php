@@ -5,7 +5,7 @@
       <!-- main-area -->
       <main>
         <!-- slider-area -->
-        <section class="slider-area s-slider-bg" data-background="{{asset('frontend/img/slider/slider_bg02.jpg') }}">
+        {{-- <section class="slider-area s-slider-bg" data-background="{{asset('frontend/img/slider/slider_bg02.jpg') }}">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-10">
@@ -26,7 +26,32 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
+   
+
+
+
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{ asset('frontend/img/slider/1380-x-780-slider-1.jpg') }}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ asset('frontend/img/slider/1380-x-780-slider-delr.jpg') }}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ asset('frontend/img/slider/slider.jpg') }}" class="d-block w-100" alt="...">
+                  </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <!-- slider-area-end -->
         <div class="area-bg-wrap">
             <!-- features-items -->
@@ -95,7 +120,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-9">
                             <div class="section-title text-center mb-30">
-                                <h2>Let's Check Out Newest Product Themes Templates & Plugin</h2>
+                                <h2>Let's Check Out Newest Product Your Home & Office</h2>
                             </div>
                         </div>
                     </div>
@@ -103,11 +128,11 @@
                         <div class="col-xl-8 text-center">
                             <div class="product-menu s-product-menu mb-60">
                                 <button class="active" data-filter="*">All Items</button>
-                                <button class="" data-filter=".cat-one">WordPress</button>
-                                <button class="" data-filter=".cat-two">HTML</button>
-                                <button class="" data-filter=".cat-three">Marketing</button>
-                                <button class="" data-filter=".cat-four">eCommerce</button>
-                                <button class="" data-filter=".cat-five">Plugins</button>
+                                <button class="" data-filter=".cat-one">Home Decor</button>
+                                <button class="" data-filter=".cat-two">Living Room</button>
+                                <button class="" data-filter=".cat-three">Dining Room</button>
+                                <button class="" data-filter=".cat-four">Bed Room</button>
+                                <button class="" data-filter=".cat-five">Office</button>
                             </div>
                         </div>
                     </div>
@@ -115,7 +140,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 grid-item cat-three cat-five">
                             <div class="single-product s-single-product mb-30">
                                 <div class="product-img">
-                                    <a href="#"><img src="{{asset('frontend/img/product/s_product_img01.jpg') }}" alt="img"></a>
+                                    <a href="#"><img src="{{asset('frontend/img/product/t_product_img01.jpg') }}" alt="img"></a>
                                 </div>
                                 <div class="product-action">
                                     <a href="#" class="btn"><i class="far fa-eye"></i>Buy Now</a>
@@ -130,7 +155,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 grid-item cat-three">
                             <div class="single-product s-single-product mb-30">
                                 <div class="product-img">
-                                    <a href="#"><img src="{{asset('frontend/img/product/s_product_img02.jpg') }}" alt="img"></a>
+                                    <a href="#"><img src="{{asset('frontend/img/product/t_product_img02.jpg') }}" alt="img"></a>
                                 </div>
                                 <div class="product-action">
                                     <a href="#" class="btn"><i class="far fa-eye"></i>Buy Now</a>
@@ -145,7 +170,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 grid-item cat-one cat-five">
                             <div class="single-product s-single-product mb-30">
                                 <div class="product-img">
-                                    <a href="#"><img src="{{asset('frontend/img/product/s_product_img03.jpg') }}" alt="img"></a>
+                                    <a href="#"><img src="{{asset('frontend/img/product/t_product_img03.jpg') }}" alt="img"></a>
                                 </div>
                                 <div class="product-action">
                                     <a href="#" class="btn"><i class="far fa-eye"></i>Buy Now</a>
@@ -160,7 +185,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 grid-item cat-two cat-four">
                             <div class="single-product s-single-product mb-30">
                                 <div class="product-img">
-                                    <a href="#"><img src="{{asset('frontend/img/product/s_product_img04.jpg') }}" alt="img"></a>
+                                    <a href="#"><img src="{{asset('frontend/img/product/t_product_img04.jpg') }}" alt="img"></a>
                                 </div>
                                 <div class="product-action">
                                     <a href="#" class="btn"><i class="far fa-eye"></i>Buy Now</a>
@@ -175,7 +200,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 grid-item cat-one cat-four">
                             <div class="single-product s-single-product mb-30">
                                 <div class="product-img">
-                                    <a href="#"><img src="{{asset('frontend/img/product/s_product_img05.jpg') }}" alt="img"></a>
+                                    <a href="#"><img src="{{asset('frontend/img/product/t_product_img05.jpg') }}" alt="img"></a>
                                 </div>
                                 <div class="product-action">
                                     <a href="#" class="btn"><i class="far fa-eye"></i>Buy Now</a>
@@ -190,7 +215,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 grid-item cat-two cat-three">
                             <div class="single-product s-single-product mb-30">
                                 <div class="product-img">
-                                    <a href="#"><img src="{{asset('frontend/img/product/s_product_img06.jpg') }}" alt="img"></a>
+                                    <a href="#"><img src="{{asset('frontend/img/product/t_product_img06.jpg') }}" alt="img"></a>
                                 </div>
                                 <div class="product-action">
                                     <a href="#" class="btn"><i class="far fa-eye"></i>Buy Now</a>
@@ -205,7 +230,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 grid-item cat-one cat-five">
                             <div class="single-product s-single-product mb-30">
                                 <div class="product-img">
-                                    <a href="#"><img src="{{asset('frontend/img/product/s_product_img07.jpg') }}" alt="img"></a>
+                                    <a href="#"><img src="{{asset('frontend/img/product/t_product_img01.jpg') }}" alt="img"></a>
                                 </div>
                                 <div class="product-action">
                                     <a href="#" class="btn"><i class="far fa-eye"></i>Buy Now</a>
@@ -220,7 +245,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 grid-item cat-two cat-four">
                             <div class="single-product s-single-product mb-30">
                                 <div class="product-img">
-                                    <a href="#"><img src="{{asset('frontend/img/product/s_product_img08.jpg') }}" alt="img"></a>
+                                    <a href="#"><img src="{{asset('frontend/img/product/t_product_img02.jpg') }}" alt="img"></a>
                                 </div>
                                 <div class="product-action">
                                     <a href="#" class="btn"><i class="far fa-eye"></i>Buy Now</a>
@@ -250,7 +275,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
                         <div class="section-title text-center mb-55">
-                            <h2>Customize Website Control</h2>
+                            <h2>Customize Home & Office</h2>
                             <p>Market or marketplace is location where people regularly purchase and provisins.</p>
                         </div>
                     </div>
@@ -362,7 +387,7 @@
         </section>
         <!-- services-area-end -->
         <!-- pricing-area -->
-        <section class="pricing-area pt-115 pb-90">
+        {{-- <section class="pricing-area pt-115 pb-90">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
@@ -455,7 +480,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- pricing-area-end -->
         <!-- testimonial-area -->
         <section class="testimonial gray-bg pt-115 pb-70">

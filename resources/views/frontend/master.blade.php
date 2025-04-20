@@ -6,12 +6,15 @@
         <title>Royal Furniture - Digital Product Website </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+       
 		<link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/favicon.png') }}">
+
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
-        <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+        {{-- <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}"> --}}
         <link rel="stylesheet" href="{{ asset('frontend/css/animate.min.css') }}">
         <link rel="stylesheet" href="{{ asset('frontend/css/magnific-popup.css') }}">
         <link rel="stylesheet" href="{{ asset('frontend/css/fontawesome-all.min.css') }}">
@@ -29,7 +32,7 @@
     <body>
 
         <!-- preloader -->
-        <div id="preloader">
+        {{-- <div id="preloader">
             <div id="loading-center">
                 <div id="loading-center-absolute">
                     <div class="object" id="object_one"></div>
@@ -37,7 +40,7 @@
                     <div class="object" id="object_three"></div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- preloader-end -->
 
         <!-- header-area -->
@@ -229,8 +232,7 @@
                                     <h5>About Market</h5>
                                 </div>
                                 <div class="footer-text mb-35">
-                                    <p>Popularised in the with the release of etras sheets containing passages and more rcently with desop publishing software
-                                    like Maker including versions.</p>
+                                    <p>Royal Furniture is your trusted destination for elegant, durable, and affordable furniture solutions. With a commitment to quality craftsmanship and timeless design, </p>
                                 </div>
                                 <div class="footer-social">
                                     <ul>
@@ -344,7 +346,8 @@
 		<!-- JS here -->
         <script src="{{ asset('frontend/js/vendor/jquery-1.12.4.min.js') }}"></script>
         <script src="{{ asset('frontend/js/popper.min.js') }}"></script>
-        <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
+        {{-- <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script> --}}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
         <script src="{{ asset('frontend/js/isotope.pkgd.min.js') }}"></script>
         <script src="{{ asset('frontend/js/slick.min.js') }}"></script>
         <script src="{{ asset('frontend/js/jquery.meanmenu.min.js') }}"></script>

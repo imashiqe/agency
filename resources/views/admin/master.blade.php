@@ -91,40 +91,16 @@
             </li>
     
 
-            <li>
-              <span class="sidebar-divider lg"></span>
-            </li>
-            <li class="nav-small-cap">
-              <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
-              <span class="hide-menu">Forms</span>
-            </li>
+         
           
 
-            <li>
-              <span class="sidebar-divider lg"></span>
-            </li>
-            <li class="nav-small-cap">
-              <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
-              <span class="hide-menu">Bootstrap Tables</span>
-            </li>
-      
+          
+          
 
-            <li>
-              <span class="sidebar-divider lg"></span>
-            </li>
-            <li class="nav-small-cap">
-              <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
-              <span class="hide-menu">Datatables</span>
-            </li>
      
 
             <li>
-              <span class="sidebar-divider lg"></span>
-            </li>
-            <li class="nav-small-cap">
-              <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
-              <span class="hide-menu">Charts</span>
-            </li>
+         
      
           
 
@@ -145,31 +121,12 @@
        
        
 
-            <li>
-              <span class="sidebar-divider lg"></span>
-            </li>
-            <li class="nav-small-cap">
-              <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
-              <span class="hide-menu">Extra</span>
-            </li>
+    
            
-            <li class="sidebar-item">
-              <a class="sidebar-link primary-hover-bg" href="./icon-tabler.html" aria-expanded="false">
-                <iconify-icon icon="solar:sticker-smile-circle-2-line-duotone"></iconify-icon>
-                <span class="hide-menu">Tabler Icon</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link primary-hover-bg" href="./sample-page.html" aria-expanded="false">
-                <iconify-icon icon="solar:planet-3-line-duotone"></iconify-icon>
-                <span class="hide-menu">Sample Page</span>
-              </a>
-            </li>
+           
+          
           </ul>
-          <div
-            class="unlimited-access d-flex align-items-center hide-menu bg-secondary-subtle position-relative mb-7 mt-4 p-3 rounded-3">
-         
-          </div>
+        
         </nav>
         <!-- End Sidebar navigation -->
       </div>
@@ -208,37 +165,7 @@
                   </div>
                 </li>
               </ul>
-              <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
-                <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-                  <a href="https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/?ref=376" target="_blank"
-                    class="btn btn-primary">Check Pro Template</a>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link " href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      <img src="../assets/images/profile/user1.jpg" alt="" width="35" height="35"
-                        class="rounded-circle">
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
-                      <div class="message-body">
-                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
-                          <i class="ti ti-user fs-6"></i>
-                          <p class="mb-0 fs-3">My Profile</p>
-                        </a>
-                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
-                          <i class="ti ti-mail fs-6"></i>
-                          <p class="mb-0 fs-3">My Account</p>
-                        </a>
-                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 dropdown-item">
-                          <i class="ti ti-list-check fs-6"></i>
-                          <p class="mb-0 fs-3">My Task</p>
-                        </a>
-                        <a href="./authentication-login.html"
-                          class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+             
             </nav>
           </header>
           <!--  Header End -->
