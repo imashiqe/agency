@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Royal Furniture - Digital Product Website </title>
+        <title>Royal Furniture - Carpet Sale , Fixing Curtain Making , Wallpaper & Fitting  , Sofa Repair Maintenance </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
        
@@ -110,9 +110,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="header-btn d-none d-xl-inline-block">
+                            {{-- <div class="header-btn d-none d-xl-inline-block">
                                 <a href="#" class="btn"><i class="fas fa-user"></i>My Account</a>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="col-12">
                             <div class="mobile-menu"></div>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-cat-wrap">
+                {{-- <div class="footer-cat-wrap">
                     <div class="container">
                         <div class="row f-cat-active">
                             <div class="col-12">
@@ -223,7 +223,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
@@ -280,7 +280,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
+                        {{-- <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
                                     <h5>CUSTOMERS</h5>
@@ -298,21 +298,26 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-4 col-md-3 col-sm-6">
+                        </div> --}}
+                        <div class="col-xl-4 col-lg-6 col-md-3 col-sm-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
-                                    <h5>SUPPORT center</h5>
+                                    <h5>Contact Us</h5>
                                 </div>
-                                <div class="fw-link">
-                                    <ul>
+                                <div class="">
+                                    <p>C.R No: 7CH5+C4 Ar-Rayyan, Qatar</p>
+                                    <p>Phone: +97450300325</p>
+                                    <p>Email:<a href="mailto:info@royalfurnituredoha.com">info@royalfurnituredoha.com </a> </p>
+                                    <p>Website: <a href="https://royalfurnituredoha.com">royalfurnituredoha.com</a></p>
+                                    {{-- <ul>
                                         <li><a href="#">Help Center</a></li>
                                         <li><a href="#">Community</a></li>
                                         <li><a href="#">Webinars</a></li>
                                         <li><a href="#">Experts Marketplace</a></li>
                                         <li><a href="#">API & Developers</a></li>
                                         <li><a href="#">System Status</a></li>
-                                    </ul>
+                                    </ul> --}}
+
                                 </div>
                             </div>
                         </div>

@@ -113,11 +113,15 @@
               <span class="hide-menu">Auth</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link primary-hover-bg" href="./authentication-login.html" aria-expanded="false">
-                <iconify-icon icon="solar:login-3-line-duotone"></iconify-icon>
-                <span class="hide-menu">Login</span>
-              </a>
+              <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button type="submit" class="sidebar-link primary-hover-bg" style="border: none; background: none; padding: 0; width: 100%; text-align: left;">
+                  <iconify-icon icon="solar:logout-3-line-duotone"></iconify-icon>
+                  <span class="hide-menu">Logout</span>
+                </button>
+              </form>
             </li>
+            
        
        
 

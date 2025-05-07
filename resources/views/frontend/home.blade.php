@@ -31,31 +31,40 @@
 
 
 
-          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+        <div class="container-fluid p-0">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('frontend/img/slider/1380-x-780-slider-1.jpg') }}" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="{{ asset('frontend/img/slider/1380-x-780-slider-delr.jpg') }}" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="{{ asset('frontend/img/slider/slider.jpg') }}" class="d-block w-100" alt="...">
-                  </div>
+                  <img src="{{ asset('frontend/img/slider/1380-x-780-slider-1.jpg') }}" class="img-fluid w-100 d-block" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="{{ asset('frontend/img/slider/1380-x-780-slider-delr.jpg') }}" class="img-fluid w-100 d-block" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="{{ asset('frontend/img/slider/slider.jpg') }}" class="img-fluid w-100 d-block" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="{{ asset('frontend/img/slider/slider_bg03.jpg') }}" class="img-fluid w-100 d-block" alt="Slide 4">
+                </div>
+              </div>
+              
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        <!-- slider-area-end -->
+          
+  
+        {{-- <!-- slider-area-end --> --}}
         <div class="area-bg-wrap">
             <!-- features-items -->
-            <section class="features-items-area pt-115">
+            {{-- <section class="features-items-area pt-115">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-8">
@@ -112,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- features-items-end -->
             <!-- product-area -->
             <section class="product-area product-bg pt-85 pb-120">
@@ -121,6 +130,11 @@
                         <div class="col-xl-9">
                             <div class="section-title text-center mb-30">
                                 <h2>Let's Check Out Newest Product Your Home & Office</h2>
+                                <h4>تفصيل جميع انواع المفروشات حسب الطلب
+                                    تنجيد كنب وكراسي باجود الاقمشة.
+                                    بيع كراسي سجاد ورق جدران
+                                    تفصيل وتركيب ستائر.
+                                    تركيب باركيه ارضيات.</h4>
                             </div>
                         </div>
                     </div>
@@ -280,50 +294,152 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="customize-img" data-aos="fade-right">
-                            <img src="{{asset('frontend/img/images/customize_img.jpg') }}" alt="img">
-                        </div>
+                <div class="container my-5">
+                    <div class="row mb-">
+                      <!-- Image Column -->
+                      <div class="col-md-6 ">
+                        <img src="frontend/img/product/t_product_img04.jpg" alt="Description" class="img-fluid">
+                      </div>
+                      <!-- Description Column -->
+                      <div class="col-md-6 mt-4">
+                        <h2>Exclusive Carpet Sale - Transform Your Home Today!</h2>
+                        <p>
+                            Looking to add a touch of elegance and comfort to your living space? Don’t miss out on our limited-time Carpet Sale! With a wide range of high-quality carpets available in various styles, sizes, and colors, you're sure to find the perfect match for your home.
+
+                            Premium Quality: Soft, durable, and built to last.
+                            
+                            Variety of Styles: From traditional to modern, we have something for every taste.
+                            
+                            Affordable Prices: Enjoy unbeatable discounts and amazing offers.
+                            
+                            Easy Installation: Our carpets are designed for quick and hassle-free installation.
+                            
+                            Whether you're looking to update a room or completely transform your home, now is the perfect time to shop. Hurry, these deals won't last forever!
+                            
+                            
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="customize-wrap">
-                            <div class="single-customize-step">
-                                <div class="customize-icon">
-                                    <img src="{{asset('frontend/img/icon/customize_icon01.png') }}" alt="img">
-                                </div>
-                                <div class="customize-content">
-                                    <h4>Reduce search</h4>
-                                    <p>Market marketplace tha locatio people regular purchase and provisins.</p>
-                                </div>
-                            </div>
-                            <div class="single-customize-step">
-                                <div class="customize-icon">
-                                    <img src="{{asset('frontend/img/icon/customize_icon02.png') }}" alt="img">
-                                </div>
-                                <div class="customize-content">
-                                    <h4>Media Integration</h4>
-                                    <p>Market marketplace tha locatio people regular purchase and provisins.</p>
-                                </div>
-                            </div>
-                            <div class="single-customize-step">
-                                <div class="customize-icon">
-                                    <img src="{{asset('frontend/img/icon/customize_icon03.png') }}" alt="img">
-                                </div>
-                                <div class="customize-content">
-                                    <h4>Theme plugin</h4>
-                                    <p>Market marketplace tha locatio people regular purchase and provisins.</p>
-                                </div>
-                            </div>
+
+                    {{-- 2 --}}
+                    <div class="row">
+                       
+                        <!-- Description Column -->
+                        <div class="col-md-6 mt-4">
+                          <h2> Sofa Sale - Comfort and Style Sofa for Your Home!</h2>
+                          <p>
+                           
+
+                            Upgrade your living space with our Sofa Sale! Offering a stunning collection of sofas that blend style, comfort, and affordability, this is the perfect opportunity to bring your dream living room to life.
+                            
+                            Exceptional Comfort: Sink into the soft cushions and experience ultimate relaxation.
+                            
+                            Variety of Designs: From contemporary to classic, find the perfect fit for your home décor.
+                            
+                            Durable and High-Quality: Crafted with premium materials to ensure long-lasting use.
+                            
+                            Affordable Prices: Enjoy amazing discounts on top-quality sofas.
+                            
+                            Customization Options: Choose from a range of fabrics and colors to suit your style.
+                            
+                            Don’t miss out on these incredible savings! Whether you need a cozy corner sofa or a spacious sectional, we have it all. Shop now and make your living room a haven of comfort and style!
+                              
+                              
+                          </p>
                         </div>
-                    </div>
-                </div>
+                         <!-- Image Column -->
+                         <div class="col-md-6">
+                            <img src="frontend/img/product/t_product_img05.jpg" alt="Description" class="img-fluid">
+                          </div>
+                      </div>
+                      {{-- 3 --}}
+                      <div class="row pt-4">
+                        <!-- Image Column -->
+                        <div class="col-md-6">
+                          <img src="frontend/img/product/t_product_img03.jpg" alt="Description" class="img-fluid">
+                        </div>
+                        <!-- Description Column -->
+                        <div class="col-md-6">
+                          <h2>Exclusive Dining Table - Transform Your Home Today!</h2>
+                          <p>
+                              Looking to add a touch of elegance and comfort to your living space? Don’t miss out on our limited-time Carpet Sale! With a wide range of high-quality carpets available in various styles, sizes, and colors, you're sure to find the perfect match for your home.
+  
+                              Premium Quality: Soft, durable, and built to last.
+                              
+                              Variety of Styles: From traditional to modern, we have something for every taste.
+                              
+                              Affordable Prices: Enjoy unbeatable discounts and amazing offers.
+                              
+                              Easy Installation: Our carpets are designed for quick and hassle-free installation.
+                              
+                              Whether you're looking to update a room or completely transform your home, now is the perfect time to shop. Hurry, these deals won't last forever!
+                              
+                              
+                          </p>
+                        </div>
+                      </div>
+                      {{-- 4 --}}
+                      <div class="row mt-4">
+                      
+                        <!-- Description Column -->
+                        <div class="col-md-6">
+                          <h2>Exclusive Window Screen - Transform Your Home Today!</h2>
+                          <p>
+                              Looking to add a touch of elegance and comfort to your living space? Don’t miss out on our limited-time Carpet Sale! With a wide range of high-quality carpets available in various styles, sizes, and colors, you're sure to find the perfect match for your home.
+  
+                              Premium Quality: Soft, durable, and built to last.
+                              
+                              Variety of Styles: From traditional to modern, we have something for every taste.
+                              
+                              Affordable Prices: Enjoy unbeatable discounts and amazing offers.
+                              
+                              Easy Installation: Our carpets are designed for quick and hassle-free installation.
+                              
+                              Whether you're looking to update a room or completely transform your home, now is the perfect time to shop. Hurry, these deals won't last forever!
+                              
+                              
+                          </p>
+                        </div>
+                          <!-- Image Column -->
+                          <div class="col-md-6">
+                            <img src="frontend/img/product/productporda.jpg" alt="Description" class="img-fluid">
+                          </div>
+                      </div>
+
+
+                      <div class="row mt-4">
+                       <!-- Image Column -->
+                       <div class="col-md-6">
+                        <img src="frontend/img/product/banner401.jpg" alt="Description" class="img-fluid">
+                      </div>
+                        <!-- Description Column -->
+                        <div class="col-md-6">
+                          <h2>Window Screen - Transform Your Home Today!</h2>
+                          <p>
+                              Looking to add a touch of elegance and comfort to your living space? Don’t miss out on our limited-time Carpet Sale! With a wide range of high-quality carpets available in various styles, sizes, and colors, you're sure to find the perfect match for your home.
+  
+                              Premium Quality: Soft, durable, and built to last.
+                              
+                              Variety of Styles: From traditional to modern, we have something for every taste.
+                              
+                              Affordable Prices: Enjoy unbeatable discounts and amazing offers.
+                              
+                              Easy Installation: Our carpets are designed for quick and hassle-free installation.
+                              
+                              Whether you're looking to update a room or completely transform your home, now is the perfect time to shop. Hurry, these deals won't last forever!
+                              
+                              
+                          </p>
+                        </div>
+                         
+                      </div>
+                  </div>
             </div>
             <div class="customize-shape"><img src="{{asset('frontend/img/shape/customize_shape.png') }}" alt=""></div>
         </section>
         <!-- customize-area-end -->
         <!-- services-area -->
-        <section class="services-area services-bg pt-115 pb-70" data-background="img/bg/services_bg.jpg">
+        {{-- <section class="services-area services-bg pt-115 pb-70" data-background="img/bg/services_bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
@@ -384,7 +500,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- services-area-end -->
         <!-- pricing-area -->
         {{-- <section class="pricing-area pt-115 pb-90">
@@ -483,7 +599,7 @@
         </section> --}}
         <!-- pricing-area-end -->
         <!-- testimonial-area -->
-        <section class="testimonial gray-bg pt-115 pb-70">
+        {{-- <section class="testimonial gray-bg pt-115 pb-70">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
@@ -554,10 +670,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- testimonial-area-end -->
         <!-- blog-area -->
-        <section class="blog-area blog-bg pt-115 pb-90">
+        {{-- <section class="blog-area blog-bg pt-115 pb-90">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-9">
@@ -652,7 +768,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- blog-area-end -->
     </main>
     <!-- main-area-end -->
